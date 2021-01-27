@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   height: 100%;
   box-shadow: 2px 2px 5px #aaaaaa;
   color: #36393b;
+  background-color: white;
 
   button {
     border-radius: 0 0 10px 10px;
