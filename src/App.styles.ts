@@ -12,6 +12,11 @@ export const Title = styled.h1`
   letter-spacing: 0.08rem;
   border-bottom: 2px solid #aaa;
   color: #36393b;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.7rem;
+    letter-spacing: 0.04rem;
+  }
 `;
 
 export const StyledButton = styled(IconButton)`
@@ -21,4 +26,8 @@ export const StyledButton = styled(IconButton)`
   top: 20px;
   color: #36393b;
   background-color: #fafafa;
+
+  @media only screen and (max-width: 600px) {
+    top: 16px;
+  }
 `;

@@ -7,6 +7,14 @@ export const Wrapper = styled.aside`
   background-color: #fafafa;
   height: 100%;
 
+  @media only screen and (max-width: 600px) {
+    width: 350px;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
   h2 {
     color: #36393b;
     letter-spacing: 0.1rem;
